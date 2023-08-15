@@ -1,3 +1,5 @@
+// javascript.js for machine_button directory
+
 
 const btn = document.querySelector("button");
 const txt = document.querySelector("p");
