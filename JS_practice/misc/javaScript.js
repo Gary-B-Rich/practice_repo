@@ -86,3 +86,6 @@ console.log(output2);
 // new line is \n
 const output3 = "I like the song.\nI gave it a score of 90%.";
 console.log(output3);
+
+// enter a number prompt
+let answer = parseInt(prompt("Please enter a number: "));
