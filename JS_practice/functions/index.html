@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <script>
+
+    // func add 7 to num1
+    function add7(num1) {
+      alert(num1+7);
+    }
+    add7(10);
+
+    // func multiply num1 and num2
+    function multiply(num1, num2) {
+      alert(num1*num2);
+    }
+    multiply(10,5);
+
+    // func capitalize first letter of string
+    function capitalize(string) {
+      let small = string.toLowerCase();
+      const smallCap = string.charAt(0);
+      const capCap = smallCap.toUpperCase();
+      const theRest = small.slice(1);
+      const fixed = capCap + theRest;
+      alert(fixed);
+    }
+    capitalize("the TRUCK Have STArted to MOVE");
+
+    // func last letter
+  </script>
+</body>
+</html>
