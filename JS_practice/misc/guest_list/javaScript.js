@@ -10,11 +10,12 @@ refused.textContent = 'Refuse: ';
 for(let person in people) {
     if(person == "Phil" || person == "Lola") {
         //stuff happens
+        // refused.textContent += ;
     }
     else {
         //other stuff happens
+        // admitted.textContent += ;
     }
 }
 
-// refused.textContent += ;
-// admitted.textContent += ;
+
