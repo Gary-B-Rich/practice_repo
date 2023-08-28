@@ -26,3 +26,8 @@ div1.style.backgroundColor = "pink";
     div1.appendChild(para2);
 // Append <div> with <h1> & <p> to document
 document.body.appendChild(div1);
+
+
+// Style .content class from the html
+const content = document.querySelector('.content').style;
+content.color = 'purple';
