@@ -1,6 +1,7 @@
 // script.js for arrayMethods
 // tutorial video: https://www.youtube.com/watch?v=R8rmfD9Y5-c
 
+const array = [1, 2, 3, 4, 5];
 const items = [
     { name: 'Bike',     price: 100 },
     { name: 'TV',       price: 200 },
@@ -9,7 +10,7 @@ const items = [
     { name: 'Phone',    price: 500 },
     { name: 'Computer', price: 1000},
     { name: 'Keyboard', price: 25  }
-]
+];
 
 // original array
 console.log(items);
@@ -55,9 +56,13 @@ console.log(allInexpensiveItems);
 
 const total = items.reduce((currentTotal, item) => {
     return item.price + currentTotal;
-}, 0)
+}, 0) // the zero is for the starting point of the reduce function
 console.log(total);
+//*******************************************
 
+// includes() checks to see if an array has a value
+const includesTwo = array.includes(2);
 
-
+console.log(includesTwo);
+//*******************************************
 
