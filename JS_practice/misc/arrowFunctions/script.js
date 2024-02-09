@@ -28,13 +28,20 @@ let isPositive2 = number => {
 // single parameter (number) parenthesis optional 
 let isPositive3 = (number) => number >= 0;
 
-
-
 //********************************************************
+// Normal Function
 function randomNumber() {
     return Math.random;
 }
+// Arrow Function of the same thing
+// when NO parameters, use empty parenthesis
+let randomNumber2 = () => {
+    return Math.random;
+}
+// Arrow Function when single line return
+let randomNumber3 = () => Math.random;
 
+//********************************************************
 document.addEventListener('click', function() {
     console.log('click');
 })
