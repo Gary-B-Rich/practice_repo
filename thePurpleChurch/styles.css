@@ -1,0 +1,68 @@
+/*  styles.css for the-deep directory (church landing page)  */
+
+* {
+    margin: 0;
+    padding: 0;  
+}
+
+body {
+    height: 190vh;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(interior.jpg);
+    background-attachment: fixed;
+
+
+}
+
+.logo {
+    height: 50vh;
+    padding-top: 50px;
+    background-image: url(purpleChurch.jpg);
+    background-position: center;
+    background-size: scale-down;
+}
+
+.footer, .logo {
+    color: whitesmoke;
+    font-size: xx-large;
+}
+
+.button_container {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+#button1, #button2, #button3, #button4 {
+    width: 25vh;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    color: hotpink;
+    font-size: large;
+
+}
+#button1 {
+    background-image: url(glowCross.jpg);
+}
+#button2 {
+    background-image: url(purpleBrickCross.jpg);
+}
+#button3 {
+    background-image: url(iceCross.jpg);
+}
+#button4 {
+    background-image: url(purpleFireCross.jpg);
+}
+
+.footer {
+    background-image: url(churchArt.jpg);
+    background-position: center;
+    height: 100vh;
+    padding-top: 20px;
+} 
