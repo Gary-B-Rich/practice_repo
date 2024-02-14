@@ -1,4 +1,4 @@
-//  script.js for the-deep directory
+//  script.js for thePurpleChurch in practice_repo 
 
 const button1=document.getElementById('button1');
 button1.addEventListener("click", function() {
