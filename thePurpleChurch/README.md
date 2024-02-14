@@ -1,2 +1,2 @@
-# the-deep
+# thePurpleChurch
 Church landing page
