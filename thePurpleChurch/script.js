@@ -2,7 +2,7 @@
 
 const button1=document.getElementById('button1');
 button1.addEventListener("click", function() {
-    console.log("Clicked button 1");
+    console.log("You clicked button 1");
 });
 
 const button2=document.getElementById('button2');
