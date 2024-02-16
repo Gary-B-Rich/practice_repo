@@ -77,6 +77,13 @@ const allSongs = [
     duration: "2:43",
     src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/chasing-that-feeling.mp3",
   },
+  {
+    id: 10,
+    title: "Ambient Dream",
+    artist: "Sound FX",
+    duration: "7:19",
+    src: "./ambient.mp3",
+  },
 ];
 
 const audio = new Audio();
