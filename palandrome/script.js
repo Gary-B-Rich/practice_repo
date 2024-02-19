@@ -1,11 +1,12 @@
 // script.js for palandrome
 
 // add text input functionality
-const textInput = document.getElementById('text-input');
-console.log(textInput);
+const breakfastNumberInputs=document.getElementById('text-input');
 
 // add button functionality
 let checkButton = document.getElementById('check-btn');
 checkButton.addEventListener("click", function () {
-    console.log("Clicked");
+    if(breakfastNumberInputs===undefined){
+        alert("Please input a value");
+    }
 });
