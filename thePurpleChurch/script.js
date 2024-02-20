@@ -26,4 +26,12 @@ const logo = document.querySelector('.logo');
 const footer = document.querySelector('.footer');
 //footer.innerText="This is the footer";
 
-// adding a comment for git practice
+const mainText=document.querySelector('.main-text');
+//mainText.innerText="Success";
+
+const secondText=document.querySelector('.second-text');
+//secondText.innerText="Success";
+
+const thirdText=document.querySelector('.third-text');
+//thirdText.innerText="Success";
+
