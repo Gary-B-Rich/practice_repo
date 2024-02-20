@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 body {
@@ -33,16 +34,17 @@ body {
 
 .button_container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: black;
 }
-#button1, #button2, #button3, #button4 {
+#button1, #button2, #button3, #button4, .button0, .button1, .button2, .button3, .button4 {
     width: 25vh;
     height: 100px;
     background-size: cover;
     background-position: center;
     color: hotpink;
     font-size: large;
+    
 
 }
 #button1 {
