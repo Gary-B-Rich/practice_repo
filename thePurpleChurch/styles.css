@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 190vh;
+    height: 248vh;
 }
 
 .main-container {
@@ -25,6 +25,7 @@ body {
     background-image: url(purpleChurch.jpg);
     background-position: center;
     background-size: scale-down;
+    padding-top:100px;
 }
 
 .footer, .logo {
@@ -36,6 +37,9 @@ body {
     display: flex;
     justify-content: space-evenly;
     background-color: black;
+    position: sticky;
+    height: 0;
+    top: 0;
 }
 #button1, #button2, #button3, #button4, .button0, .button1, .button2, .button3, .button4 {
     width: 25vh;
@@ -47,6 +51,7 @@ body {
     
 
 }
+
 #button1 {
     background-image: url(glowCross.jpg);
 }
@@ -64,5 +69,5 @@ body {
     background-image: url(churchArt.jpg);
     background-position: center;
     height: 100vh;
-    padding-top: 20px;
+    
 } 
