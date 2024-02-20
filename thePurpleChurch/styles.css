@@ -5,7 +5,8 @@
 }
 
 body {
-    height: 248vh;
+    height: 300vh;
+    background-color: black;
 }
 
 .main-container {
@@ -15,7 +16,6 @@ body {
     background-size: cover;
     background-image: url(interior.jpg);
     background-attachment: fixed;
-
 
 }
 
@@ -70,4 +70,19 @@ body {
     background-position: center;
     height: 100vh;
     
-} 
+}
+
+.main-text, .third-text {
+    font-size: xx-large;
+    color: hotpink;
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+}
+.second-text {
+    font-size: xx-large;
+    color: black;
+    background-color: hotpink;
+    padding: 30px;
+    
+}
