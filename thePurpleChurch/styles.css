@@ -11,7 +11,7 @@ body {
 
 .main-container {
     width: 100%;
-    height: 100vh;
+    height: 20vh;
     background-position: center;
     background-size: cover;
     background-image: url(interior.jpg);
@@ -35,7 +35,7 @@ body {
 }
 
 .logo {
-    height: 50vh; 
+    height: 70vh; 
     background-image: url(purpleChurch.jpg);
     background-position: center;
     background-size: auto;
