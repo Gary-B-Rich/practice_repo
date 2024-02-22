@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 300vh;
+    height: 350vh;
     background-color: black;
 }
 
@@ -34,12 +34,18 @@ body {
     background-attachment: fixed;
 }
 
+.welcome {   
+    height: 10vh;
+    color: rgb(255, 105, 235);
+    font-size: 75px;
+}
+
 .logo {
     height: 70vh; 
     background-image: url(purpleChurch.jpg);
     background-position: center;
     background-size: auto;
-    padding-top:125px;
+    
 }
 
 .footer, .logo {
