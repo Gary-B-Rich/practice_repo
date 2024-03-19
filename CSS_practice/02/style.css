@@ -1,9 +1,30 @@
 /* style.css for 02 */
 
+
+
 body {
     font-size: 22px;
 }
 
+h1, h2 {
+    color: blue;
+}
+/* h1 h2 without a comma would look for h2 nested inside h1 */
+
+
 p {
     color: purple;
+}
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.gray {
+    color: gray;
+}
+
+#second {
+    font-style: italic;
 }
