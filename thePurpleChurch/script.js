@@ -23,9 +23,18 @@ button4.addEventListener("click", function() {
 const welcomeText = document.querySelector('.welcome');
 welcomeText.innerText="Welcome to the Purple Church";
 
-const footer = document.querySelector('.footer');
-//footer.innerText="This is the footer";
+const blackBox1 = document.getElementById('blackBox1');
+blackBox1.innerText="This is blackBox1";
 
+const blackBox2 = document.getElementById('blackBox2');
+blackBox2.innerText="This is blackBox2";
+
+const pinkBox1 = document.getElementById('pinkBox1');
+pinkBox1.innerText="This is pinkBox1";
+
+
+
+/*
 const mainText=document.querySelector('.main-text');
 //mainText.innerText="Success";
 
@@ -34,4 +43,4 @@ const secondText=document.querySelector('.second-text');
 
 const thirdText=document.querySelector('.third-text');
 //thirdText.innerText="Success";
-
+*/
