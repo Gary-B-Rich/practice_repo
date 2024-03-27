@@ -5,7 +5,6 @@
 }
 
 body {
-    height: 350vh;
     background-color: black;
 }
 
@@ -60,14 +59,30 @@ body {
 .button_container {
     padding-top:15px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 100%;
     background-color: black;
     position: sticky;
     height: 0;
     top: 0;
 }
-#button1, #button2, #button3, #button4, .button0, .button1, .button2, .button3, .button4 {
-    width: 25vh;
+
+.left-buttons {
+    padding-left: 15px;
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+}
+.right-buttons {
+    display:flex;
+    padding-right: 15px;
+    justify-content: end;
+    gap: 10px;
+}
+
+
+#button1, #button2, #button3, #button4 {
+    width: 120px;
     height: 100px;
     background-size: cover;
     background-position: center;
