@@ -1,11 +1,10 @@
 * {
     margin: 0;
-    padding: 0;
-    
+    padding: 0;    
 }
 body {
     background-color: black;
-    height: 280vw;
+    height: 500vw;
 }
 
 .button_container {
@@ -54,13 +53,14 @@ body {
     background-image: url(purpleFireCross.jpg);
 }
 .filler {
-    height: 130px;
+    height: 100px;
+   
 }
 .welcome {   
     color:hotpink;
-    font-size: 65px;
+    font-size: 6vw;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     border-radius: 50px;
     z-index: 1;
 }
@@ -71,8 +71,8 @@ body {
     justify-content: center;
     z-index: 1;
 }
-.main-text, .third-text {
-    font-size: xx-large;
+#blackText1, #blackText2 {
+    font-size: 2.5vw;
     color: hotpink;
     background-color: black;
     padding: 30px;
@@ -81,39 +81,53 @@ body {
     margin-left: 10px;
     width: 65vw;
 }
-.second-text {
-    font-size: xx-large;
+#pinkText1 {
+    font-size: 2.5vw;
     color: black;
     background-color: hotpink;
     padding: 30px;
     border-radius: 50px;
     width: 60vw;
 }
-
-.pinkBoxLeft, .blackBoxLeft, .pinkBoxRight {
+.pinkBoxLeft, .blackBoxLeft, .pinkBoxRight, .blackBoxRight {
     display: flex;
     gap: 20px;
     padding: 15px;
     justify-content: space-evenly;
-    width: 70%;
+    width: 65%;
     border-radius: 50px;
-    max-width: 800px;
+    
 }
 .pinkBoxLeftText, .pinkBoxRightText {
-    font-size: xx-large;
+    font-size: 2.5vw;
     color: black;
     background-color: hotpink;
     padding: 30px;
     border-radius: 50px;
     width: 65vw;
 }
-.blackBoxLeftText {
-    font-size: xx-large;
+.blackBoxLeftText, .blackBoxRightText {
+    font-size: 2.5vw;
     color: hotpink;
     background-color: black;
     padding: 30px;
     border-radius: 50px;
     width: 65vw;
+    border: 1px solid hotpink;
+}
+.logo {
+    width: 99%;
+    height: 20vh;
+    border-radius: 50px;
+     justify-content: center;
+    background-image: url(purpleChurch.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+#smallPic {
+    height: auto;
     border: 1px solid hotpink;
 }
 /* .main-container {
@@ -152,18 +166,3 @@ body {
     color: whitesmoke;
     font-size: xx-large;
 }*/
-.logo {
-    width: 80%;
-    height: 20vh;
-    border-radius: 50px;
-     justify-content: center;
-    background-image: url(purpleChurch.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-}
-#smallPic {
-    height: auto;
-    border: 1px solid hotpink;
-}
