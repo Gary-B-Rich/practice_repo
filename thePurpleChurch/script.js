@@ -29,6 +29,7 @@ Provident illum ipsam, soluta dignissimos alias voluptate dolorem \
 consequatur aperiam aliquam ut, ipsa ratione fugit asperiores \
 ipsum dolor sit amet consectetur adipisicing beatae?";
 
+/*
 const blackBox2 = document.getElementById('blackBox2');
 blackBox2.innerText="Lorem ipsum dolor sit amet consectetur adipisicing \
 elit. Maxime, adipisci. Enim fugiat temporibus explicabo doloremque \
@@ -37,7 +38,7 @@ magnam, officia magni sed facilis hic incidunt itaque repudiandae! \
 Provident illum ipsam, soluta dignissimos alias voluptate dolorem \
 consequatur aperiam aliquam ut, ipsa ratione fugit asperiores \
 ipsum dolor sit amet consectetur adipisicing beatae?";
-
+*/
 const pinkBox1 = document.getElementById('pinkBox1');
 pinkBox1.innerText="Lorem ipsum dolor sit amet consectetur adipisicing \
 elit. Maxime, adipisci. Enim fugiat temporibus explicabo doloremque \
@@ -46,8 +47,6 @@ magnam, officia magni sed facilis hic incidunt itaque repudiandae! \
 Provident illum ipsam, soluta dignissimos alias voluptate dolorem \
 consequatur aperiam aliquam ut, ipsa ratione fugit asperiores \
 ipsum dolor sit amet consectetur adipisicing beatae?";
-
-
 
 /*
 const mainText=document.querySelector('.main-text');

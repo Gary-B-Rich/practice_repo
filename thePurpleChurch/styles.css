@@ -126,6 +126,17 @@ body {
     background-repeat:no-repeat;
     background-attachment: fixed;
 }
+.interior {
+    width: 99%;
+    height: 20vh;
+    border-radius: 50px;
+     justify-content: center;
+    background-image: url(interior.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
 #smallPic {
     height: auto;
     border: 1px solid hotpink;
