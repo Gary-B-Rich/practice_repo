@@ -71,7 +71,7 @@ body {
     justify-content: center;
     z-index: 1;
 }
-#blackText1, #blackText2 {
+#blackBox1, #blackBox2 {
     font-size: 2.5vw;
     color: hotpink;
     background-color: black;
@@ -81,7 +81,7 @@ body {
     margin-left: 10px;
     width: 65vw;
 }
-#pinkText1 {
+#pinkBox1 {
     font-size: 2.5vw;
     color: black;
     background-color: hotpink;

@@ -20,8 +20,8 @@ button4.addEventListener("click", function() {
     console.log("Clicked button 4");
 });
 
-const logo = document.querySelector('.logo');
-//logo.innerText="Welcome to the Purple Church";
+const welcomeText = document.querySelector('.welcome');
+welcomeText.innerText="Welcome to the Purple Church";
 
 const footer = document.querySelector('.footer');
 //footer.innerText="This is the footer";
