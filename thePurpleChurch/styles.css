@@ -1,14 +1,76 @@
 * {
     margin: 0px;
     padding: 0px;
-    
 }
-
 body {
     background-color: black;
 }
-
-.main-container {
+.welcome {   
+    height: 10vh;
+    padding-top: 120px;
+    color: rgb(255, 105, 235);
+    font-size: 7vw;
+    text-align: center;
+}
+.button_container {
+    padding-top:15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    height: 0;
+    top: 0;
+}
+.left-buttons {
+    padding-left: 15px;
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+}
+.right-buttons {
+    display:flex;
+    padding-right: 15px;
+    justify-content: end;
+    gap: 15px;
+}
+#button1, #button2, #button3, #button4 {
+    width: 120px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    color: hotpink;
+    font-size: large;
+    border-radius: 30px;
+}
+#button1 {
+    background-image: url(glowCross.jpg);
+}
+#button2 {
+    background-image: url(purpleBrickCross.jpg);
+}
+#button3 {
+    background-image: url(iceCross.jpg);
+    background-position: 48% 20%;
+}
+#button4 {
+    background-image: url(purpleFireCross.jpg);
+}
+.main-text, .third-text {
+    font-size: xx-large;
+    color: hotpink;
+    background-color: black;
+    padding: 30px;
+    border-radius: 30px;
+}
+.second-text {
+    font-size: xx-large;
+    color: black;
+    background-color: hotpink;
+    padding: 30px;
+    border-radius: 50px;   
+}
+/* .main-container {
     width: 100%;
     height: 20vh;
     background-position: center;
@@ -32,16 +94,13 @@ body {
     background-size: auto;
     background-image: url(purpleBrickCross.jpg);
     background-attachment: fixed;
+} 
+.footer {
+    background-image: url(churchArt.jpg);
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;  
 }
-
-.welcome {   
-    height: 10vh;
-    padding-top: 120px;
-    color: rgb(255, 105, 235);
-    font-size: 7vw;
-    text-align: center;
-}
-
 .logo {
     height: 70vh; 
     background-image: url(purpleChurch.jpg);
@@ -49,84 +108,10 @@ body {
     background-size: fill;
     background-repeat:no-repeat;
     margin-bottom: 50px;
+    max-width: 1000px;
+    align-items: center;
 }
-
 .footer, .logo {
     color: whitesmoke;
     font-size: xx-large;
-}
-
-.button_container {
-    padding-top:15px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    background-color: black;
-    position: sticky;
-    height: 0;
-    top: 0;
-}
-
-.left-buttons {
-    padding-left: 15px;
-    display: flex;
-    justify-content: start;
-    gap: 15px;
-}
-.right-buttons {
-    display:flex;
-    padding-right: 15px;
-    justify-content: end;
-    gap: 10px;
-}
-
-
-#button1, #button2, #button3, #button4 {
-    width: 120px;
-    height: 100px;
-    background-size: cover;
-    background-position: center;
-    color: hotpink;
-    font-size: large;
-    border-radius: 30px;
-    
-
-}
-#button3 {
-    background-position: 48% 20%;
-}
-
-#button1 {
-    background-image: url(glowCross.jpg);
-}
-#button2 {
-    background-image: url(purpleBrickCross.jpg);
-}
-#button3 {
-    background-image: url(iceCross.jpg);
-}
-#button4 {
-    background-image: url(purpleFireCross.jpg);
-}
-
-.footer {
-    background-image: url(churchArt.jpg);
-    background-position: center;
-    height: 100vh;
-    background-repeat: no-repeat;
-    
-}
-
-.main-text, .third-text {
-    font-size: xx-large;
-    color: hotpink;
-    background-color: black;
-    padding: 30px;
-}
-.second-text {
-    font-size: xx-large;
-    color: black;
-    background-color: hotpink;
-    padding: 30px;
-    
-}
+}*/
