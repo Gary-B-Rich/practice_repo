@@ -1,0 +1,61 @@
+.card {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  /* Styling the card value */
+  .value {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: red;
+  }
+  
+  /* Styling the diamond symbol */
+  .symbol {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: red;
+  }
+  
+  /* Styling the upper diamond shape */
+  .upper-diamond {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 70px;
+    background-color: red;
+    clip-path: polygon(50% 0%, 0% 50%, 100% 50%);
+  }
+  
+  /* Styling the lower diamond shape */
+  .lower-diamond {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 70px;
+    background-color: red;
+    clip-path: polygon(50% 100%, 0% 50%, 100% 50%);
+  }
+
+  /* Styling the upside-down value */
+.upside-down-value {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: red;
+    transform: rotate(180deg);
+  }
