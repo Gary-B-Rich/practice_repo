@@ -1,3 +1,4 @@
+// .js for sphere
 document.addEventListener("DOMContentLoaded", function() {
     const sphere = document.getElementById('sphere');
 
