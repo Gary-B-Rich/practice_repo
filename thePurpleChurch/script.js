@@ -37,6 +37,16 @@ pinkBoxLeftText.innerText="Lorem ipsum dolor sit amet consectetur adipisicing \
 elit. Sunt voluptate, accusantium enim quos fugit vel earum? \
 Expedita voluptates, natus nostrum nihil impedit ad deserunt.";
 
+const pinkBoxRightText = document.querySelector('.pinkBoxRightText');
+pinkBoxRightText.innerText="Lorem ipsum dolor sit amet consectetur adipisicing \
+elit. Sunt voluptate, accusantium enim quos fugit vel earum? \
+Expedita voluptates, natus nostrum nihil impedit ad deserunt.";
+
+const pinkBoxLeftText2 = document.querySelector('.pinkBoxLeftText2');
+pinkBoxLeftText2.innerText="Lorem ipsum dolor sit amet consectetur adipisicing \
+elit. Sunt voluptate, accusantium enim quos fugit vel earum? \
+Expedita voluptates, natus nostrum nihil impedit ad deserunt.";
+
 const blackBox1 = document.getElementById('blackBox1');
 blackBox1.innerText="Lorem ipsum dolor sit amet consectetur adipisicing \
 elit. Maxime, adipisci. Enim fugiat temporibus explicabo doloremque \
