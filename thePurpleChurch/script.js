@@ -8,7 +8,8 @@ document.documentElement.style.setProperty('--background', 'black');
 const button1=document.getElementById('button1');
 button1.addEventListener("click", function() {
     console.log("Clicked button 1");
-    document.documentElement.style.setProperty('--mainColor', 'yellow');
+    //change color variables on click
+    document.documentElement.style.setProperty('--mainColor', 'goldenrod');
     document.documentElement.style.setProperty('--background', 'black');
 });
 const button2=document.getElementById('button2');
