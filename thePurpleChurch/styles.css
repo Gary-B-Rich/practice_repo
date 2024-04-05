@@ -2,22 +2,13 @@
     margin: 0;
     padding: 0;    
 }
-:root {  
-    /*--hotPink: hotPink;*/
-    --black: black;
-    --gray-blue: hsl(220, 15%, 55%);
-    --dark-blue: hsl(218, 44%, 22%);   
-}
- /* Example for how to use:
-    color: var(--hotPink); */ 
 body {
-    background-color: black;
+    background-color: var(--background);
     height: 500vw;
    
 }
-
 .button_container {
-    background-color: black;
+    background-color: var(--background);
     padding-top:15px;
     display: flex;
     justify-content: space-between;
@@ -65,7 +56,6 @@ body {
     height: 100px;
    
 }
-
 .welcome {   
     color: var(--mainColor);
     font-size: 6vw;
@@ -84,7 +74,7 @@ body {
 #blackBox1, #blackBox2 {
     color: var(--mainColor);
     border: 1px solid var(--mainColor);
-    background-color: black;
+    background-color: var(--background);
     font-size: 2.5vw;
     padding: 30px;
     border-radius: 30px;
@@ -93,7 +83,7 @@ body {
 }
 #pinkBox1 {
     background-color: var(--mainColor);
-    color: black;
+    color: var(--background);
     font-size: 2.5vw;
     padding: 30px;
     border-radius: 50px;
@@ -110,7 +100,7 @@ body {
 }
 .pinkBoxLeftText, .pinkBoxRightText {
     background-color: var(--mainColor);
-    color: black;
+    color: var(--background);
     font-size: 2.5vw;
     padding: 30px;
     border-radius: 50px;
@@ -119,7 +109,7 @@ body {
 .blackBoxLeftText, .blackBoxRightText {
     color: var(--mainColor);
     border: 1px solid var(--mainColor);
-    background-color: black;
+    background-color: var(--background);
     font-size: 2.5vw;
     padding: 30px;
     border-radius: 50px;

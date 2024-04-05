@@ -1,13 +1,21 @@
 //  script.js for thePurpleChurch in practice_repo 
-document.documentElement.style.setProperty('--mainColor', 'hotpink');
 
+//set color variables for css pageload
+document.documentElement.style.setProperty('--mainColor', 'hotpink');
+document.documentElement.style.setProperty('--background', 'black');
+
+// buttons
 const button1=document.getElementById('button1');
 button1.addEventListener("click", function() {
     console.log("Clicked button 1");
+    document.documentElement.style.setProperty('--mainColor', 'teal');
+    document.documentElement.style.setProperty('--background', 'black');
 });
 const button2=document.getElementById('button2');
 button2.addEventListener("click", function() {
     console.log("Clicked button 2");
+    document.documentElement.style.setProperty('--mainColor', 'hotpink');
+    document.documentElement.style.setProperty('--background', 'black');
 });
 const button3=document.getElementById('button3');
 button3.addEventListener("click", function() {
@@ -17,6 +25,7 @@ const button4=document.getElementById('button4');
 button4.addEventListener("click", function() {
     console.log("Clicked button 4");
 });
+
 
 const welcomeText = document.querySelector('.welcome');
 welcomeText.innerText="Welcome to the Purple Church";
