@@ -11,12 +11,14 @@ button1.addEventListener("click", function() {
     //change color variables on click
     document.documentElement.style.setProperty('--mainColor', 'goldenrod');
     document.documentElement.style.setProperty('--background', 'black');
+    welcomeText.innerText="Welcome to the Golden Church";
 });
 const button2=document.getElementById('button2');
 button2.addEventListener("click", function() {
     console.log("Clicked button 2");
     document.documentElement.style.setProperty('--mainColor', 'hotpink');
     document.documentElement.style.setProperty('--background', 'black');
+    welcomeText.innerText="Welcome to the Purple Church";
 });
 const button3=document.getElementById('button3');
 button3.addEventListener("click", function() {
@@ -27,9 +29,13 @@ button4.addEventListener("click", function() {
     console.log("Clicked button 4");
 });
 
-
 const welcomeText = document.querySelector('.welcome');
 welcomeText.innerText="Welcome to the Purple Church";
+
+const pinkBoxLeftText = document.querySelector('.pinkBoxLeftText');
+pinkBoxLeftText.innerText="Lorem ipsum dolor sit amet consectetur adipisicing \
+elit. Sunt voluptate, accusantium enim quos fugit vel earum? \
+Expedita voluptates, natus nostrum nihil impedit ad deserunt.";
 
 const blackBox1 = document.getElementById('blackBox1');
 blackBox1.innerText="Lorem ipsum dolor sit amet consectetur adipisicing \
