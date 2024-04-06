@@ -1,23 +1,27 @@
 //  script.js for thePurpleChurch in practice_repo 
 
-//set color variables for css pageload
-document.documentElement.style.setProperty('--mainColor', 'hotpink');
-document.documentElement.style.setProperty('--background', 'black');
+const goPink = () => {
+    document.documentElement.style.setProperty('--mainColor', 'hotpink');
+    document.documentElement.style.setProperty('--background', 'black');
+}
+const goGold = () => {
+    document.documentElement.style.setProperty('--mainColor', 'goldenrod');
+    document.documentElement.style.setProperty('--background', 'black');
+}
+
+goPink();
 
 // buttons
 const button1=document.getElementById('button1');
 button1.addEventListener("click", function() {
     console.log("Clicked button 1");
-    //change color variables on click
-    document.documentElement.style.setProperty('--mainColor', 'goldenrod');
-    document.documentElement.style.setProperty('--background', 'black');
+    goGold();
     welcomeText.innerText="Welcome to the Golden Church";
 });
 const button2=document.getElementById('button2');
 button2.addEventListener("click", function() {
     console.log("Clicked button 2");
-    document.documentElement.style.setProperty('--mainColor', 'hotpink');
-    document.documentElement.style.setProperty('--background', 'black');
+    goPink();
     welcomeText.innerText="Welcome to the Purple Church";
 });
 const button3=document.getElementById('button3');
@@ -85,3 +89,4 @@ const secondText=document.querySelector('.second-text');
 const thirdText=document.querySelector('.third-text');
 //thirdText.innerText="Success";
 */
+
