@@ -12,6 +12,10 @@ const goBlue = () => {
     document.documentElement.style.setProperty('--mainColor', 'steelblue');
     document.documentElement.style.setProperty('--background', 'black');
 }
+const goBlack = () => {
+    document.documentElement.style.setProperty('--mainColor', 'steelblue');
+    document.documentElement.style.setProperty('--background', 'black');
+}
 
 goPink();
 
