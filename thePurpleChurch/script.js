@@ -42,6 +42,7 @@ const button4=document.getElementById('button4');
 button4.addEventListener("click", function() {
     console.log("Clicked button 4");
     goBlack();
+    welcomeText.innerText="Paint it black";
 });
 
 const welcomeText = document.querySelector('.welcome');
