@@ -2,4 +2,4 @@
 Church landing page
 
 # welcome to the purple church
-Greetings
+Practicing DOM manipulation
