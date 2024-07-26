@@ -8,6 +8,10 @@ const goGold = () => {
     document.documentElement.style.setProperty('--mainColor', 'goldenrod');
     document.documentElement.style.setProperty('--background', 'black');
 }
+const goBlue = () => {
+    document.documentElement.style.setProperty('--mainColor', 'goldenrod');
+    document.documentElement.style.setProperty('--background', 'black');
+}
 
 goPink();
 
