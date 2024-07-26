@@ -41,6 +41,7 @@ button3.addEventListener("click", function() {
 const button4=document.getElementById('button4');
 button4.addEventListener("click", function() {
     console.log("Clicked button 4");
+    goBlack();
 });
 
 const welcomeText = document.querySelector('.welcome');
