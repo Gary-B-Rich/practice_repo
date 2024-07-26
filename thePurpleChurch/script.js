@@ -32,6 +32,7 @@ const button3=document.getElementById('button3');
 button3.addEventListener("click", function() {
     console.log("Clicked button 3");
     goBlue();
+    welcomeText.innerText="Welcome to the Blue Church";
 });
 const button4=document.getElementById('button4');
 button4.addEventListener("click", function() {
