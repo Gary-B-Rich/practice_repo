@@ -31,6 +31,7 @@ button2.addEventListener("click", function() {
 const button3=document.getElementById('button3');
 button3.addEventListener("click", function() {
     console.log("Clicked button 3");
+    goBlue();
 });
 const button4=document.getElementById('button4');
 button4.addEventListener("click", function() {
