@@ -26,6 +26,7 @@ body {
     justify-content: start;
     gap: 20px;
 }
+
 .right-buttons {
     display:flex;
     padding-right: 15px;
